@@ -4,10 +4,6 @@ $CMP BCM856DS
 F http://www.farnell.com/datasheets/609315.pdf?_ga=1.198376559.1971014029.1483900167
 $ENDCMP
 #
-$CMP MJE340
-F http://www.farnell.com/datasheets/1685014.pdf?_ga=1.157545722.1971014029.1483900167
-$ENDCMP
-#
 $CMP MJE350
 F http://www.farnell.com/datasheets/1685016.pdf?_ga=1.173095011.1971014029.1483900167
 $ENDCMP
