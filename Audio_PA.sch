@@ -48,12 +48,12 @@ $Comp
 L CONN_01X02 P1
 U 1 1 58727E75
 P 1150 3500
-F 0 "P1" H 1150 3650 50  0000 C CNN
-F 1 "Audio_In" H 1150 3350 50  0000 C CNN
+F 0 "P1" H 1150 3350 50  0000 C CNN
+F 1 "Audio_In" H 1150 3650 50  0000 C CNN
 F 2 "Connectors_Phoenix:PhoenixContact_MCV-G_02x3.81mm_Vertical" H 1150 3500 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2138215.pdf?_ga=1.58707370.1020810156.1482221903" H 1150 3500 50  0001 C CNN
 	1    1150 3500
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L C C1
@@ -88,7 +88,7 @@ F 1 "47K" V 1950 3650 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM10mm" V 1880 3650 50  0001 C CNN
 F 3 "" H 1950 3650 50  0001 C CNN
 	1    1950 3650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L R R2
@@ -102,10 +102,10 @@ F 3 "" H 2150 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Earth #PWR1
+L Earth #PWR01
 U 1 1 587282CB
 P 1400 3950
-F 0 "#PWR1" H 1400 3700 50  0001 C CNN
+F 0 "#PWR01" H 1400 3700 50  0001 C CNN
 F 1 "Earth" H 1400 3800 50  0001 C CNN
 F 2 "" H 1400 3950 50  0000 C CNN
 F 3 "" H 1400 3950 50  0000 C CNN
@@ -221,13 +221,13 @@ F 1 "10K" V 3950 2650 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM10mm" V 3880 2650 50  0001 C CNN
 F 3 "" H 3950 2650 50  0000 C CNN
 	1    3950 2650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
-L Earth #PWR2
+L Earth #PWR02
 U 1 1 587293F8
 P 3950 2900
-F 0 "#PWR2" H 3950 2650 50  0001 C CNN
+F 0 "#PWR02" H 3950 2650 50  0001 C CNN
 F 1 "Earth" H 3950 2750 50  0001 C CNN
 F 2 "" H 3950 2900 50  0000 C CNN
 F 3 "" H 3950 2900 50  0000 C CNN
@@ -276,7 +276,7 @@ F 1 "100R" V 4850 1750 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM10mm" V 4780 1750 50  0001 C CNN
 F 3 "" H 4850 1750 50  0000 C CNN
 	1    4850 1750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L R R11
@@ -287,7 +287,7 @@ F 1 "100R" V 5650 1750 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM10mm" V 5580 1750 50  0001 C CNN
 F 3 "" H 5650 1750 50  0000 C CNN
 	1    5650 1750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L MJE340 Q3
@@ -320,7 +320,7 @@ F 1 "1K" V 3950 3700 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM10mm" V 3880 3700 50  0001 C CNN
 F 3 "" H 3950 3700 50  0000 C CNN
 	1    3950 3700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L C C4
@@ -359,10 +359,10 @@ F 4 ">=50V" H 4200 4200 60  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR3
+L Earth #PWR03
 U 1 1 5872AAFE
 P 3950 4500
-F 0 "#PWR3" H 3950 4250 50  0001 C CNN
+F 0 "#PWR03" H 3950 4250 50  0001 C CNN
 F 1 "Earth" H 3950 4350 50  0001 C CNN
 F 2 "" H 3950 4500 50  0000 C CNN
 F 3 "" H 3950 4500 50  0000 C CNN
@@ -462,18 +462,18 @@ $Comp
 L CONN_01X02 P5
 U 1 1 5872E2CF
 P 9400 3500
-F 0 "P5" H 9400 3650 50  0000 C CNN
-F 1 "Audio_Out" H 9400 3350 50  0000 C CNN
+F 0 "P5" H 9400 3350 50  0000 C CNN
+F 1 "Audio_Out" H 9400 3650 50  0000 C CNN
 F 2 "Connectors_Phoenix:PhoenixContact_MCV-G_02x3.81mm_Vertical" H 9400 3500 50  0001 C CNN
 F 3 "" H 9400 3500 50  0000 C CNN
 	1    9400 3500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
-L Earth #PWR7
+L Earth #PWR04
 U 1 1 5872EA23
 P 9100 3900
-F 0 "#PWR7" H 9100 3650 50  0001 C CNN
+F 0 "#PWR04" H 9100 3650 50  0001 C CNN
 F 1 "Earth" H 9100 3750 50  0001 C CNN
 F 2 "" H 9100 3900 50  0000 C CNN
 F 3 "" H 9100 3900 50  0000 C CNN
@@ -505,10 +505,10 @@ F 4 "3W" V 8850 4100 60  0001 C CNN "Wattage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR6
+L Earth #PWR05
 U 1 1 5872FA97
 P 8850 4350
-F 0 "#PWR6" H 8850 4100 50  0001 C CNN
+F 0 "#PWR05" H 8850 4100 50  0001 C CNN
 F 1 "Earth" H 8850 4200 50  0001 C CNN
 F 2 "" H 8850 4350 50  0000 C CNN
 F 3 "" H 8850 4350 50  0000 C CNN
@@ -558,7 +558,7 @@ F 1 "470R" V 5650 3800 50  0000 C CNN
 F 2 "Resistors_THT:Resistor_Horizontal_RM10mm" V 5580 3800 50  0001 C CNN
 F 3 "" H 5650 3800 50  0000 C CNN
 	1    5650 3800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L BD139 Q7
@@ -566,7 +566,7 @@ U 1 1 58733973
 P 5950 2850
 F 0 "Q7" H 6150 2925 50  0000 L CNN
 F 1 "BD139" H 6150 2850 50  0000 L CNN
-F 2 "" H 6150 2775 50  0000 L CIN
+F 2 "TO_SOT_Packages_THT:SOT126_SOT32_Housing_Vertical" H 6150 2775 50  0001 L CIN
 F 3 "" H 5950 2850 50  0000 L CNN
 	1    5950 2850
 	1    0    0    -1  
@@ -703,7 +703,7 @@ F 2 "Resistors_THT:Resistor_Ceramic_Horizontal_L50mm-W14mm-H13mm-p60mm" V 8430 4
 F 3 "http://www.farnell.com/datasheets/1447692.pdf?_ga=1.98877982.1020810156.1482221903" H 8500 4050 50  0001 C CNN
 F 4 ">=5W" V 8500 4050 60  0001 C CNN "Wattage"
 	1    8500 4050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Q_NMOS_GDS Q12
@@ -725,7 +725,7 @@ F 1 "IRFP9240" H 8600 4800 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-247_Vertical_Neutral123" H 8600 4950 50  0001 C CNN
 F 3 "" H 8400 4850 50  0000 C CNN
 	1    8400 4850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L R R21
@@ -795,10 +795,10 @@ F 3 "http://www.farnell.com/datasheets/1723232.pdf?_ga=1.91088282.1020810156.148
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR4
+L Earth #PWR06
 U 1 1 5875481E
 P 7150 2250
-F 0 "#PWR4" H 7150 2000 50  0001 C CNN
+F 0 "#PWR06" H 7150 2000 50  0001 C CNN
 F 1 "Earth" H 7150 2100 50  0001 C CNN
 F 2 "" H 7150 2250 50  0000 C CNN
 F 3 "" H 7150 2250 50  0000 C CNN
@@ -839,10 +839,10 @@ F 3 "" H 7150 5550 50  0000 L CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Earth #PWR5
+L Earth #PWR07
 U 1 1 587571E8
 P 7150 6200
-F 0 "#PWR5" H 7150 5950 50  0001 C CNN
+F 0 "#PWR07" H 7150 5950 50  0001 C CNN
 F 1 "Earth" H 7150 6050 50  0001 C CNN
 F 2 "" H 7150 6200 50  0000 C CNN
 F 3 "" H 7150 6200 50  0000 C CNN
@@ -854,7 +854,7 @@ L POT_TRIM RV3
 U 1 1 5873D128
 P 8100 2850
 F 0 "RV3" V 7925 2850 50  0000 C CNN
-F 1 "50" V 8000 2850 50  0000 C CNN
+F 1 "50R" V 8000 2850 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp" H 8100 2850 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2061261.pdf?_ga=1.94292381.1020810156.1482221903" H 8100 2850 50  0001 C CNN
 F 4 "Multi Turn" V 8100 2850 60  0001 C CNN "Type"
@@ -882,7 +882,7 @@ F 2 "Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp" H 8100 4
 F 3 "http://www.farnell.com/datasheets/2061261.pdf?_ga=1.94292381.1020810156.1482221903" H 8100 4050 50  0001 C CNN
 F 4 "Multi Turn" V 8100 4050 60  0001 C CNN "Type"
 	1    8100 4050
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	1350 3450 1500 3450
